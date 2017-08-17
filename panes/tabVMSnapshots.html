@@ -686,7 +686,7 @@ function __vboxTabSnapshotsFill(response) {
 }
 
 /* Snapshot list item */
-function __vboxTabSnapshot(s, currentId) {
+function __vboxTabSnapshot(s, currentId, parentTime = null) {
 
 	var li = $('<li />').attr({'id':s.id});
 	$(li).data('vboxSnapshot',s);
@@ -729,6 +729,7 @@ function __vboxTabSnapshot(s, currentId) {
 	   	  .html('<img src="images/vbox/snapshot_'+(s.online ? 'online' : 'offline')+'_16px.png" height="16" width="16" /> ' + 
 	   			  $('<div />').text(s.name).html())
 	   	   .append($('<span />').attr({'class':'timestamp'}).data({'vboxTimestamp':s.timeStamp}).text(ts))
+		   .append($('<span />').attr({'class':'timestampDiff'}).text(' '+(Math.round((s.timeStamp - parentTime) / (60 * 60 * 24) * 10) / 10) + ' days since parent'))
 	   			  
 	      // Context menu
 		  .contextMenu({
@@ -754,7 +755,7 @@ function __vboxTabSnapshot(s, currentId) {
 	if(s.children.length) {
 		var ul = $('<ul />');
 		for(var i = 0; i < s.children.length; i++) {
-			$(ul).append(__vboxTabSnapshot(s.children[i], currentId));
+			$(ul).append(__vboxTabSnapshot(s.children[i], currentId, s.timeStamp));
 		}
 		$(li).append(ul);
 	}
