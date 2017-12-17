@@ -4,77 +4,77 @@
 		<name>phpVirtualBox</name>
 		<message>
 			<source>Warning: A VirtualBox internal operation is in progress. Closing this window or navigating away from this web page may cause unexpected and undesirable results. Please wait for the operation to complete.</source>
-			<translation>Attention: une opération interne VirtualBox est en cours. La fermeture de cette fenêtre ou le lancement de nouvelles opérations peut entraîner des résultats indésirables. Veuillez attendre la fin de l'opération.</translation>
+			<translation>Varování: Právě probíhá nějaká operace uvnitř virtualizační platformy VirtualBox. Nezavírejte toto okno, ani neopouštějte tuto stránku – mohlo by to vést k nežádoucím důsledkům. Raději vyčkejte dokončení zmíněné operace.</translation>
 		</message>
 		<message>
 			<source>Operation Canceled</source>
-			<translation>Opération annulée</translation>
+			<translation>Operace zrušena</translation>
 		</message>
 		<message>
 			<source>An error occurred communicating with your vboxwebsrv. No more requests will be sent by phpVirtualBox until the error is corrected and this page is refreshed. The details of this connection error should be displayed in a subsequent dialog box.</source>
-			<translation>Une erreur est survenue lors de la communication avec vboxwebsrv. Plus aucune requête ne sera envoyée par phpVirtualBox jusqu'à ce que l'erreur soit corrigée et que cette page soit actualisée. Les détails de cette erreur de connexion doivent être affiché dans une boîte de dialogue annexe.</translation>
+			<translation>Při komunikaci s komponentou vboxwebsrv došlo k chybě. Podrobnosti ohledně této chyby by měly být zobrazeny v následném dialogovém okně. Příčinu této chyby je třeba napravit (a následně tuto stránku znovu načíst) – jen tak budete opět moci ovládat virtualizační platformu VirtualBox prostřednictvím nadstavby phpVirtualBox.</translation>
 		</message>
 		<message>
 			<source>Unable to retrieve guest properties. Make sure the virtual machine is running and has the VirtualBox Guest Additions installed.</source>
-			<translation>Impossible de récupérer les propriétés de l'invité. Assurez-vous que la machine virtuelle est en marche et que les additions invités soit installées.</translation>
+			<translation>Nezdařilo se načíst vlastnosti virtuálního stroje. Ověřte, že je spuštěný a jsou v něm nainstalované doplňky pro virtualizační platformu VirtualBox.</translation>
 		</message>
 		<!-- Error vmlist 1 -->
 		<message>
 			<source>There was an error obtaining the list of registered virtual machines from VirtualBox. Make sure vboxwebsrv is running and that the settings in config.php are correct.&lt;p&gt;The list of virtual machines will not begin auto-refreshing again until this page is reloaded.&lt;/p&gt;</source>
-			<translation>Une erreur est survenue lors de la récupération de la liste des machines virtuelles enregistrées à partir de VirtualBox. Assurez-vous que vboxwebsrv est lancé et que les paramètres du fichier config.php sont corrects.&lt;p&gt;La liste des machines virtuelles ne sera plus rafraichi automatiquement jusqu'à ce que cette page soit rechargée.&lt;/p&gt;</translation>
+			<translation>Došlo k chybě při získávání seznamu virtuálních strojů z platformy VirtualBox. Ověřte, že je spuštěná komponenta vboxwebsrv a správnost nastavení v souboru config.php.&lt;p&gt;Po napravení příčiny problému tuto stránku znovu načtěte, aby se seznam virtuálních strojů opět automaticky obnovoval.&lt;/p&gt;</translation>
 		</message>
 		<message>
 			<source>Server List</source>
-			<translation>Liste des serveurs</translation>
-		</message>		
+			<translation>Seznam serveru</translation>
+		</message>
 	</context>
 	<context>
 		<name>UIVMDesktop</name>
 		<message>
 			<source>Console</source>
-			<translation>Console</translation>
+			<translation>Konzole</translation>
 		</message>
 		<message>
 			<source>Loading ...</source>
-			<translation>Chargement ...</translation>
+			<translation>Načítání…</translation>
 		</message>
 	</context>
 	<context>
 		<name>VBoxSelectorWnd</name>
 		<message>
 			<source>Change Password</source>
-			<translation>Changer mot de passe</translation>
+			<translation>Změnit heslo</translation>
 		</message>
 		<message>
 			<source>Log out - %1</source>
-			<translation>Déconnectez-vous - %1</translation>
+			<translation>Odhlásit – %1</translation>
 		</message>
 		<message>
 			<source>Logged in as %1</source>
-			<translation>Logged in as %1</translation>
+			<translation>Jste přihlášení pod účtem %1</translation>
 		</message>
 		<message>
 			<source>Stop</source>
-			<translation>Extinction</translation>
+			<translation>Zastavit</translation>
 		</message>
 		<message>
 			<source>VirtualBox User Manual</source>
-			<translation>Manuel utilisateur de VirtualBox</translation>
+			<translation>Příručka k virtualizační platformě VirtualBox</translation>
 		</message>	
 		<message>
 			<source>About</source>
-			<translation>A propos</translation>
+			<translation>O aplikaci</translation>
 		</message>
 	</context>
 	<context>
 		<name>UIActionsPool</name>
 		<message>
 			<source>Save State</source>
-			<translation>Enregistrer l'état</translation>
+			<translation>Uložit stav</translation>
 		</message>
 		<message>
 			<source>Power Off</source>
-			<translation>Extinction</translation>
+			<translation>Vypnout</translation>
 		</message>		
 	</context>
 	<context>
@@ -82,71 +82,71 @@
 		<name>VBoxConsoleWgt</name>
 		<message>
 			<source>User name</source>
-			<translation>Utilisateur</translation>
+			<translation>Uživatelské jméno</translation>
 		</message>
 		<message>
 			<source>Password</source>
-			<translation>Mot de passe</translation>
+			<translation>Heslo</translation>
 		</message>
 		<message>
 			<source>Connecting to %1</source>
-			<translation>Connexion à %1</translation>
+			<translation>Připojování k %1…</translation>
 		</message>
 		<message>
 			<source>Connected to %1</source>
-			<translation>Connecter à %1</translation>
+			<translation>Připojeno k %1</translation>
 		</message>
 		<message>
 			<source>Requested desktop size</source>
-			<translation>Taille du bureau</translation>
+			<translation>Požadovaná velikost (rozlišení) plochy</translation>
 		</message>
 		<message>
 			<source>Connect</source>
-			<translation>Connecter</translation>
+			<translation>Připojit</translation>
 		</message>
 		<message>
 			<source>Detach</source>
-			<translation>Détacher</translation>
+			<translation>Odpojit, ale neukončovat sezení</translation>
 		</message>
 		<message>
 			<source>Disconnect</source>
-			<translation>Déconnecter</translation>
+			<translation>Odpojit a ukončit sezení</translation>
 		</message>
 		<message>
 			<source>Send Ctrl-Alt-Del</source>
-			<translation>Send Ctrl-Alt-Del</translation>
+			<translation>Poslat klávesovou zkratku Ctrl-Alt-Del</translation>
 		</message>
 		<message>
 			<source>Disconnect reason</source>
-			<translation>Raison de la déconnexion</translation>
+			<translation>Důvod odpojení</translation>
 		</message>
 		<message>
 			<source>Redirection by %1</source>
-			<translation>Redirection by %1</translation>
+			<translation>Přesměrování od %1</translation>
 		</message>
 		<message>
 			<source>Virtual machine is not running or is not configured to accept RDP connections.</source>
-			<translation>La machine virtuelle n'est pas démarrée ou n'est pas configurée pour accepter les connexions RDP.</translation>
+			<translation>Tento virtuální stroj není spuštěný nebo není nastaven tak, aby přijímal přístup protokolem RDP.</translation>
 		</message>
 	</context>		
 	<context>
 		<name>VBoxGlobal</name>
 		<message>
 			<source>Hosting</source>
-			<translation>Hébergeur</translation>
+			<translation>Hostování</translation>
 		</message>
 		<message>
 			<source>Guest Network Adapters</source>
-			<translation>Carte réseau invité</translation>
+			<translation>Síťová rozhraní virtuálních strojů</translation>
 		</message>
 		<message>
 			<source>Up</source>
-			<translation>Haut</translation>
+			<translation>Připojeno</translation>
 			<comment>Host network adapter status</comment>
 		</message>
 		<message>
 			<source>Down</source>
-			<translation>Bas</translation>
+			<translation>Odpojeno</translation>
 			<comment>Host network adapter status</comment>
 		</message>
 	</context>
@@ -154,102 +154,101 @@
 		<name>UIVMPreviewWindow</name>
 		<message>
 			<source>Every %1 seconds</source>
-			<translation>Toutes les %1s</translation>
+			<translation>Každých %1 sekund</translation>
 		</message>
 		<message>
 			<source>Open in new window</source>
-			<translation>Ouvrir dans une nouvelle fenêtre</translation>
+			<translation>Otevřít v novém okně</translation>
 		</message>		
 	</context>
 	<context>
 		<name>UISettingsDialogGlobal</name>
 		<message>
 			<source>Users</source>
-			<translation>Utilisateurs</translation>
+			<translation>Uživatelé</translation>
 		</message>
 	</context>
 	<context>
 		<name>UIUsers</name>
 		<message>
 			<source>Users</source>
-			<translation>Utilisateurs</translation>
+			<translation>Uživatelé</translation>
 		</message>		
 		<message>
 			<source>Admin User</source>
-			<translation>Utilisateur administrateur</translation>
+			<translation>Správce</translation>
 		</message>
 		<message>
 			<source>Can administer users</source>
-			<translation>Peut créer, modifier ou supprimer des utilisateurs</translation>
+			<translation>Může spravovat účty ostatních uživatelů</translation>
 		</message>
 		<message>
 			<source>Add User</source>
-			<translation>Ajouter un utilisateur</translation>
+			<translation>Přidat uživatele</translation>
 		</message>
 		<message>
 			<source>Edit User</source>
-			<translation>Modifier cet utilisateur</translation>
+			<translation>Upravit uživatele</translation>
 		</message>
 		<message>
 			<source>Remove User</source>
-			<translation>Supprimer cet utilisateur</translation>
+			<translation>Odebrat uživatele</translation>
 		</message>
 		<message>
 			<source>A user with that username already exists.</source>
-			<translation>Un utilisateur avec cet identifiant existe déjà.</translation>
+			<translation>Toto uživatelské jméno není možné použít, protože je už přiřazeno jinému uživateli na tomto systému – vymyslete jiné.</translation>
 		</message>
 		<message>
 			<source>Are you sure you want to remove the user &lt;b&gt;%1&lt;/b&gt;? This action cannot be undone.</source>
-			<translation>Etes-vous sûr de vouloir supprimer l'utilisateur &lt;b&gt;%1&lt;/b&gt;? Cette action ne peut pas être annulée.</translation>
+			<translation>Opravdu chcete odebrat uživatele &lt;b&gt;%1&lt;/b&gt;? Tuto akci nebude možné vzít zpět.</translation>
 		</message>
 		<message>
 			<source>Username</source>
-			<translation>Nom d'utilisateur</translation>
+			<translation>Uživatelské jméno</translation>
 		</message>
 		<message>
 			<source>Password</source>
-			<translation>Mot de passe</translation>
+			<translation>Heslo</translation>
 		</message>
 		<message>
 			<source>Log in</source>
-			<translation>Connectez-vous</translation>
+			<translation>Přihlásit</translation>
 		</message>
 		<message>
 			<source>Change Password</source>
-			<translation>Changer mot de passe</translation>
+			<translation>Změnit heslo</translation>
 		</message>
 		<message>
 			<source>Old Password</source>
-			<translation>Mot de passe actuel</translation>
+			<translation>Původní heslo</translation>
 		</message>
 		<message>
 			<source>New Password</source>
-			<translation>Nouveau mot de passe</translation>
+			<translation>Nové heslo</translation>
 		</message>
 		<message>
 			<source>The passwords you have entered do not match.</source>
-			<translation>Les mots de passe que vous avez saisis ne correspondent pas.</translation>
+			<translation>Zadání hesla se neshodují – zkuste to znovu.</translation>
 		</message>
 		<message>
 			<source>Password changed.</source>
-			<translation>Mot de passe changé.</translation>
+			<translation>Heslo bylo úspěšně změněno.</translation>
 		</message>
 		<message>
 			<source>The password you have entered is invalid.</source>
-			<translation>Le mot de passe que vous avez entré n'est pas valide.</translation>
+			<translation>Zadané heslo není platné.</translation>
 		</message>
 		<message>
 			<source>Retype</source>
-			<translation>Retaper</translation>
+			<translation>Zopakování zadání (pro kontrolu)</translation>
 		</message>
 		<message>
 			<source>Invalid username or password.</source>
-			<translation>Nom d'utilisateur ou mot de passe.</translation>
+			<translation>Neplatné uživatelské jméno nebo heslo.</translation>
 		</message>
 		<message>
 			<source>Not logged in.</source>
-			<translation>Non connecté.</translation>
+			<translation>Nejste přihlášení.</translation>
 		</message>		
 	</context>
 </language>
-
